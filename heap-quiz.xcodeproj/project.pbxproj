@@ -12,6 +12,8 @@
 		DDE43B4D20C9B75500DBAC8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE43B4B20C9B75500DBAC8C /* Main.storyboard */; };
 		DDE43B4F20C9B75600DBAC8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE43B4E20C9B75600DBAC8C /* Assets.xcassets */; };
 		DDE43B5220C9B75600DBAC8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE43B5020C9B75600DBAC8C /* LaunchScreen.storyboard */; };
+		DDE43B5B20C9B86900DBAC8C /* heap-test.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDE43B5920C9B86800DBAC8C /* heap-test.txt */; };
+		DDE43B5C20C9B86900DBAC8C /* heap-quiz.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDE43B5A20C9B86800DBAC8C /* heap-quiz.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DDE43B4E20C9B75600DBAC8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDE43B5120C9B75600DBAC8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDE43B5320C9B75600DBAC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE43B5920C9B86800DBAC8C /* heap-test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "heap-test.txt"; sourceTree = "<group>"; };
+		DDE43B5A20C9B86800DBAC8C /* heap-quiz.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "heap-quiz.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				DDE43B4B20C9B75500DBAC8C /* Main.storyboard */,
 				DDE43B4E20C9B75600DBAC8C /* Assets.xcassets */,
 				DDE43B5020C9B75600DBAC8C /* LaunchScreen.storyboard */,
+				DDE43B5A20C9B86800DBAC8C /* heap-quiz.txt */,
+				DDE43B5920C9B86800DBAC8C /* heap-test.txt */,
 				DDE43B5320C9B75600DBAC8C /* Info.plist */,
 			);
 			path = "heap-quiz";
@@ -124,6 +130,8 @@
 			files = (
 				DDE43B5220C9B75600DBAC8C /* LaunchScreen.storyboard in Resources */,
 				DDE43B4F20C9B75600DBAC8C /* Assets.xcassets in Resources */,
+				DDE43B5B20C9B86900DBAC8C /* heap-test.txt in Resources */,
+				DDE43B5C20C9B86900DBAC8C /* heap-quiz.txt in Resources */,
 				DDE43B4D20C9B75500DBAC8C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
