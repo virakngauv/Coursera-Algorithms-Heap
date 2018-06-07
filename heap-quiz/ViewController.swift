@@ -23,11 +23,49 @@ class ViewController: UIViewController {
         
         //Uncomment below to test file quizName
         //print(computeShortestPaths(ofArray: quizArray))
-        medianCruncher(withArray: quizArray)
+        print(medianCruncher(withArray: quizArray))
     }
     
-    func medianCruncher (withArray array : [Int]) {
-        print(array)
+    func medianCruncher (withArray array : [Int]) -> Int {
+        var medianSum : Int = 0
+        var smallArray = [Int]()
+        var bigArray = [Int]()
+        
+        var i = 0
+        while i < array.count {
+            if array[i] <= smallArray[0] {
+                //insertSmall()
+                
+            } else {
+                /*insertBig()*/
+                
+            }
+            
+            //Rebalance array sizes so that the median is always at the top of smallArray
+            if smallArray.count - 1 > bigArray.count {
+                //insertBig(extractMax(&smallArray))
+            }
+            
+            if smallArray.count < bigArray.count {
+                //insertSmall(extractMin(&bigArray))
+            }
+            
+            
+            medianSum += smallArray[0]
+            i += 1
+        }
+        
+        func insertInt (_ int : Int, intoArray array : inout [Int], intoSmallArray : Bool) {
+            
+        }
+        
+        func extractRoot (ofArray array : inout [Int], extractMin : Bool) -> Int? {
+            var root : Int?
+            
+            return root
+        }
+        
+        return medianSum % 10000
     }
     
     func arrayFromContentsOfFileWithPath(path: String) -> [Int]? {
